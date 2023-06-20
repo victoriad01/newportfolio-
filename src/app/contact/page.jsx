@@ -19,7 +19,6 @@ const Contact = () => {
     const name = e.target[0].value
     const email = e.target[1].value
     const message = e.target[2].value
-    console.log(name, email, message)
 
     emailjs
       .sendForm(

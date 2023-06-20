@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
-import Image1 from '../../public/svg 2.png'
+// import Image1 from '../../public/svg 2.png'
+
+// import Image1 from '/svg 2.png'
 import Button from '@/components/Button/Button'
 
 export default function Home() {
@@ -25,7 +27,7 @@ export default function Home() {
       <div className={styles.item}>
         <div className={styles.imgMobile}>
           <Image
-            src={Image1}
+            src='/svg 2.png'
             alt='code'
             width={500}
             height={500}

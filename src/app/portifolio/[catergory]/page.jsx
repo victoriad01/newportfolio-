@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Image1 from 'public/pc.jpeg'
 
 const CatergoryName = ({ params }) => {
-  console.log(params)
+  
   return (
     <div>
       <h1 className={styles.catTitle}>
