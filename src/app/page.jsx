@@ -11,7 +11,7 @@ export default function Home() {
         <p className={styles.title}>Get Good Code for Your Digital Products!</p>
         <p className={styles.desc}>
           Looking for a quality Web Developer with extensive experience in the
-          Web or Mobile App Development? You have made the right stop.
+          Web or Mobile App Development? You have made the right stop. Welcome!
         </p>
         <div>
           <Button
