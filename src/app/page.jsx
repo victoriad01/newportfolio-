@@ -9,8 +9,9 @@ export default function Home() {
       <div className={styles.item}>
         <p className={styles.title}>Get Good Code for Your Digital Products!</p>
         <p className={styles.desc}>
-          Looking for a quality Web Developer with extensive experience in the
-          Web or Mobile App Development? You have made the right stop. Welcome!
+          Are you looking for a quality Web Developer with extensive experience
+          in the Web or Mobile App Development? You have made the right stop.
+          Welcome!
         </p>
         <div>
           <Button
@@ -24,7 +25,7 @@ export default function Home() {
       <div className={styles.item}>
         <div className={styles.imgMobile}>
           <Image
-            src='/svg-2.png'
+            src='/svg-2.PNG'
             alt='code'
             width={500}
             height={500}
