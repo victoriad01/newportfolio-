@@ -53,6 +53,7 @@
 .here {
   color: #53c28b;
   text-decoration: underline;
+  padding-left: 2px;
 }
 
 /* Tablet Styles */
