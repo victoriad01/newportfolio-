@@ -50,6 +50,11 @@
   text-align: justify;
 }
 
+.here {
+  color: #53c28b;
+  text-decoration: underline;
+}
+
 /* Tablet Styles */
 @media (max-width: 1023px) {
   .itemsContainer {

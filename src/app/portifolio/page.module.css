@@ -33,6 +33,10 @@
   background: url('/mobile-mockup.jpg');
 }
 
+.item:nth-child(4) {
+  background: url('/others.jpg');
+}
+
 .title {
   position: absolute;
   /* right: -10px; */

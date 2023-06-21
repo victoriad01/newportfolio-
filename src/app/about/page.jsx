@@ -4,6 +4,7 @@ import styles from './page.module.css'
 import Image from 'next/image'
 import Bg_Image from 'public/hd3.png'
 import Button from '@/components/Button/Button'
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -26,12 +27,13 @@ const About = () => {
         <div className={styles.item}>
           <p className={styles.title}>Who I am?</p>
           <p className={styles.desc}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-            cupiditate unde vero velit amet itaque. Exercitationem beatae illum
-            id aliquid vero, tempore blanditiis, iure laboriosam impedit, esse
-            quo velit minus fugit officia molestiae earum in cupiditate.
-            Doloribus iusto repudiandae architecto laboriosam, eius neque amet
-            totam quasi deleniti voluptatum consequatur sed!
+            I am Victor Iyanu Oluwafemi. A Graduate and MSC holder from the
+            prestigious Federal University of Technology Akure. I have over
+            three years of experience with web applications. I have experience
+            coding React, React Native, NextJS, HTML, CSS etc. Also, I am vast
+            in Node and ExpressJS. In the past I have built CRM and ERP
+            solutions for companies to improve their business processes. Samples
+            of this can be found <Link href='/portifolio' className={styles.here}>here</Link>.
           </p>
         </div>
         <div className={styles.item}>
@@ -50,23 +52,29 @@ const About = () => {
             Development: Proficient in React and React Native, I leverage these
             frameworks to bring designs to life and create visually stunning and
             interactive user interfaces for web applications and mobile
-            applications. Backend Development: Experienced in building robust
-            and scalable server-side applications using Node.js and Express.js,
-            I ensure smooth data flow and efficient communication between the
-            frontend and backend. Testing: Skilled in End-to-End Testing and
-            Unit Testing, I prioritize code quality and maintainability,
-            implementing comprehensive test suites to ensure software
-            reliability and minimize bugs. Continuous Integration and Continuous
-            Deployment (CI/CD): Proficient in setting up CI/CD pipelines, I
-            automate the build, test, and deployment processes to facilitate
-            efficient and seamless software delivery. Throughout my career, I
-            have successfully delivered complex projects, collaborating closely
-            with cross-functional teams to meet project requirements and
+            applications.
+            <br />
+            <br />
+            Backend Development: Experienced in building robust and scalable
+            server-side applications using Node.js and Express.js, I ensure
+            smooth data flow and efficient communication between the frontend
+            and backend. Testing: Skilled in End-to-End Testing and Unit
+            Testing, I prioritize code quality and maintainability, implementing
+            comprehensive test suites to ensure software reliability and
+            minimize bugs. Continuous Integration and Continuous Deployment
+            (CI/CD): Proficient in setting up CI/CD pipelines, I automate the
+            build, test, and deployment processes to facilitate efficient and
+            seamless software delivery. Throughout my career, I have
+            successfully delivered complex projects, collaborating closely with
+            cross-functional teams to meet project requirements and
             deliverables. I am adept at translating design concepts into
             functional code and implementing innovative solutions to overcome
-            challenges. As a lifelong learner, I constantly seek to expand my
-            knowledge and stay updated with the latest technologies and industry
-            best practices. I thrive in fast-paced environments that foster
+            challenges.
+            <br />
+            <br />
+            As a lifelong learner, I constantly seek to expand my knowledge and
+            stay updated with the latest technologies and industry best
+            practices. I thrive in fast-paced environments that foster
             creativity, collaboration, and continuous improvement. If you are
             looking for a dedicated and results-driven Full Stack Engineer with
             a frontend focus and proficiency in React, React Native, NextJS
