@@ -24,7 +24,7 @@ export default function Home() {
       <div className={styles.item}>
         <div className={styles.imgMobile}>
           <Image
-            src='/svg-2.png'
+            src='/svg-2.PNG'
             alt='code'
             width={500}
             height={500}
