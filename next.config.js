@@ -2,6 +2,9 @@
 
 const nextConfig = {
   output: 'export',
+  public: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
