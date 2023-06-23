@@ -79,9 +79,9 @@ const Contact = () => {
               name='user_message'
               required
             />
-            <button className={styles.button}>Send!</button>
             {sent && <p>Message sent, I will be in contact! 🆗👍🏿</p>}
             {failed && <p>Something went wrong! Please, try again. ❌</p>}
+            <button className={styles.button}>Send!</button>
           </form>
         </div>
       </div>

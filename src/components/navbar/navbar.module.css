@@ -50,7 +50,7 @@
 }
 
 /* /* Tablet Styles */
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .toggleDiv {
     width: 30%;
   }

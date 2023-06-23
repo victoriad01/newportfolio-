@@ -20,7 +20,7 @@ const Portifolio = () => {
           <span className={styles.title}>Lendsqr</span>
         </Link>
         <Link href='https://github.com/victoriad01' className={styles.item}>
-          <span className={styles.title}>Other</span>
+          <span className={styles.title}>Others</span>
         </Link>
       </div>
     </div>

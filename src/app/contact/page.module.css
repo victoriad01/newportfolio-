@@ -83,7 +83,7 @@
 }
 
 /* Tablet Styles */
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .connect {
     font-size: 38px;
     margin-top: 20px;
