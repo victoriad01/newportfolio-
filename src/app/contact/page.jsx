@@ -12,14 +12,12 @@ const Contact = () => {
   const formRef = useRef()
 
   const [sent, setSent] = useState(false)
+  const [sending, setSending] = useState(false)
   const [failed, setFailed] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const name = e.target[0].value
-    const email = e.target[1].value
-    const message = e.target[2].value
-
+    setSending(true)
     emailjs
       .sendForm(
         'service_17mxpca',
@@ -42,20 +40,16 @@ const Contact = () => {
           }, 3000)
         }
       )
+
+    setSending(false)
   }
 
   return (
     <div className={styles.container}>
       <h1 className={styles.connect}>Connect with me</h1>
-
       <div className={styles.content}>
         <div className={styles.imgContainer}>
-          <Image
-            src={Bg_Image}
-            // fill={true}
-            alt='backgorund image'
-            className={styles.img}
-          />
+          <Image src={Bg_Image} alt='backgorund image' className={styles.img} />
         </div>
         <div className={styles.formContainer}>
           <form className={styles.form} onSubmit={handleSubmit} ref={formRef}>
@@ -81,7 +75,9 @@ const Contact = () => {
             />
             {sent && <p>Message sent, I will be in contact! 🆗👍🏿</p>}
             {failed && <p>Something went wrong! Please, try again. ❌</p>}
-            <button className={styles.button}>Send!</button>
+            <button className={styles.button} disabled={sending}>
+              Send!
+            </button>
           </form>
         </div>
       </div>
