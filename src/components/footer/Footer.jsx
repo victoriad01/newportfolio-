@@ -12,7 +12,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <p>VI-Media @{year}. Alright reserved!</p>
+      <p>VI-Media @{new Date().getFullYear()}. Alright reserved!</p>
 
       <div className={styles.icons}>
         <Link href='https://twitter.com/victor_iyanu_'>
