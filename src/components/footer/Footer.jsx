@@ -10,7 +10,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <p>VICTOR@{new Date().getFullYear()}.</p>
+      <p>VICTOR@{new Date().getFullYear()}</p>
 
       <div className={styles.icons}>
         <Link href='https://twitter.com/victor_iyanu_'>
