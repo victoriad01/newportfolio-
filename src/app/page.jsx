@@ -3,11 +3,10 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Button from '@/components/Button/Button'
-import { jsPDF } from 'jspdf'
 
 export default function Home() {
   const handleDownload = () => {
-    const url = '/cv22-06-23.pdf'
+    const url = '/OLUWAFEMI-VICTOR-CV-25-07-2024.pdf'
     const aTag = document.createElement('a')
     aTag.href = url
     aTag.setAttribute('download', 'VICTOR_OLUWAFEMI_CV.pdf')

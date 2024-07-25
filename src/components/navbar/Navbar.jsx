@@ -29,7 +29,7 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.toggleDiv}>
         <Link href='/' className={styles.logo}>
-          VI-Media
+          Hello, welcome
         </Link>
         <ModeTOggle />
       </div>
@@ -40,8 +40,6 @@ const Navbar = () => {
         className={styles.menu}
         onClick={handleClick}
       />
-
-
 
       <div
         className={toggle ? styles.links2 : styles.links}

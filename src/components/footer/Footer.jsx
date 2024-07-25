@@ -2,8 +2,6 @@ import React from 'react'
 import styles from './footer.module.css'
 import Image from 'next/image'
 
-const year = new Date().getFullYear()
-
 import TwitterIcon from 'public/twitter.png'
 import GitHubIcon from 'public/GitHub-Mark.png'
 import LinkedInIcon from 'public/LinkedIn_icon.png'
@@ -12,7 +10,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <p>VI-Media @{year}. Alright reserved!</p>
+      <p>VICTOR @{new Date().getFullYear()}. Alright reserved!</p>
 
       <div className={styles.icons}>
         <Link href='https://twitter.com/victor_iyanu_'>
