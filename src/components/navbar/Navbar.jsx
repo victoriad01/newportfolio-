@@ -29,7 +29,7 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.toggleDiv}>
         <Link href='/' className={styles.logo}>
-          Hello, welcome
+          Welcome
         </Link>
         <ModeTOggle />
       </div>
